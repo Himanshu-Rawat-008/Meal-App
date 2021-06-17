@@ -1,0 +1,50 @@
+body {
+  padding: 0px;
+  background: #c0c0c0 !important;
+}
+
+.meal {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.meal div {
+  padding: 10px 0px;
+}
+
+.meal > div {
+  border: 2px solid black;
+  background-color: #dfdfdf;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 30px;
+}
+h1 {
+  font-size: 16px;
+}
+.meal-name {
+  background-color: #616161;
+  color: #ebebeb;
+  display: flex;
+  justify-content: center;
+}
+.meal-image,
+.meal-link {
+  display: flex;
+  justify-content: center;
+}
+.meal-image img {
+  max-height: 300px;
+  border-radius: 30px;
+}
+.meal-link a {
+  padding: 30px;
+}
+/* category and instructions  */
+span {
+  padding: 30px;
+  font-size: 1.8rem;
+}

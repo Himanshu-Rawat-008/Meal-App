@@ -1,0 +1,53 @@
+body {
+  padding: 0px;
+  margin: 0;
+  background: #c0c0c0 !important;
+}
+/* Heading */
+.heading {
+  margin: 0;
+  background-color: #616161;
+  display: flex;
+  justify-content: center;
+  color: #ebebeb;
+}
+
+/* Container */
+.container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+/* Every fav meal */
+.meals {
+  background-color: #dfdfdf;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px 0px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Images */
+.meal-img img {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+/* Name */
+.meal-name {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+/* Button to remove from list */
+.remove-button {
+  display: flex;
+  align-items: center;
+}
