@@ -79,7 +79,7 @@ function fetchMealData(userData) {
       a.innerHTML = data.strMeal;
 
       // Link to acces Meal Detail Page
-      a.href = "meal.html";
+      a.href = "pages/meal.html";
       a.target = "_blank";
       a.onclick = function () {
         select(data.idMeal);
